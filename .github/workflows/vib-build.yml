@@ -4,7 +4,7 @@ on:
   push:
     branches: [ "main" ]
   schedule:
-    - cron: '21 3 * * *'
+    - cron: '* * * * *'
   workflow_dispatch:
 
 env:
